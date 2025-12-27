@@ -433,6 +433,22 @@ main::before {
     font-weight: 400;
 }
 
+/*Text Mode Text Area*/
+
+
+.text_mode_text_area{
+    min-height:8vh;
+    min-width: 84vw;
+    max-height: fit-content;
+    max-width: 84vw;
+    border-radius: 5px;
+    resize: none;
+    overflow: auto;
+    scrollbar-width: none;
+}
+/*Text Mode Text Area*/
+
+
 /* Camera Container */
 .camera-container {
     position: relative;
